@@ -6,7 +6,6 @@ function addEvent(obj,sEv,fn){
 		obj.attachEvent('on'+sEv,fn);
 	}
 }
-
 function addWheel(obj,fn){
 	
 	function fnWheel(ev){
